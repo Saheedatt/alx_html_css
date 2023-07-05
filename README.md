@@ -33,6 +33,8 @@ To use the Website, follow these steps:
 - Videos section with thumbnails, titles, and descriptions.
 - Footer with global block, images with links, and a text section.
 
+-![Image of the progress made](Screenshot%20(135).png)
+
 
 
 
