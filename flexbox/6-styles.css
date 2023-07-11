@@ -195,9 +195,10 @@ ul.row {
     width: calc((100%/2)-2rem);
 }
   
-/* Navbar
-============================= */
-
+  /* Navbar
+      ============================= */
+  
+  
 .nav {
     display: flex;
     margin: 0;
@@ -205,25 +206,26 @@ ul.row {
     list-style: none;
     text-align: center;
 }
-
+  
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
     font-weight: var(--nav-item-font-weight);
     font-size: var(--nav-item-font-size);
     letter-spacing: var(--nav-item-letter-spacing);
+    margin: var(--nav-item-margin);
 }
-
+  
 .nav .nav-link {
     display: block;
     padding: 0.5rem 0;
     position: relative;
 }
-
+  
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
     text-decoration: none;
 }
-
+  
 .nav .nav-link::before {
     content: '';
     position: absolute;
@@ -234,16 +236,14 @@ ul.row {
     height: 0.2rem;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
-
-.nav .nav-item + .nav-item {
-    margin: 0 0 0 2rem; /* Updated margin declaration */
-}
-
+  
 .nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
 }
-
+.nav .nav-item + .nav-item {
+    margin: var(--nav-item-margin); /* Use the same margin declaration */
+}
   
   /* Header
       ============================= */
