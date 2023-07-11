@@ -377,8 +377,10 @@ ul.row {
 .card-category {
     color: var(--color-primary);
 }
-  /* Section Latest news ============================= */
-  .section-latest-news .row{
+  /* Section Latest news 
+    ============================= */
+
+.section-latest-news .row{
     flex-direction: row-reverse;
   }
   /* Card WORK
