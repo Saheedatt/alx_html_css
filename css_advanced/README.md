@@ -36,7 +36,7 @@ To use the Website, follow these steps:
 
 
 
--![Image of the progress made](Screenshot%20(140).png)
+-![Image of the progress made](..//images/Screenshot%20(140).png)
 
 
 
